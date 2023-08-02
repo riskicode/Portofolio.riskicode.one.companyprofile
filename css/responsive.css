@@ -1,0 +1,68 @@
+@media screen and (max-widht : 992px) {
+    .input-cari .button-secondary {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .input-cari .button-primary {
+        font-size: 24px;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #contact h3 {
+        width: 30px;
+        width: 100%;
+    }
+
+    .card-contact {
+        width: 100%;
+        height: auto;
+        padding: 52px 48px;
+        margin-top: 50px;
+    }
+
+    .card-contact h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 21px;
+    }
+}
+
+@media screen and (max-widht : 576px) {
+    .card-layanan {
+        margin: 15px 0;
+    }
+
+    #search h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    #search p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+        border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 0 0 10px 0;
+    }
+
+    .input-cari .form-control {
+        height: 65px !important;
+    }
+
+}
+
+@media screen and (max-widht : 350px) {}
