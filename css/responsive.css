@@ -11,6 +11,18 @@
   }
 }
 
+/* Gaya umum untuk semua perangkat */
+.element {
+  margin: 20px;
+}
+
+/* Gaya khusus untuk perangkat dengan lebar maksimal 600px (perangkat mobile) */
+@media only screen and (max-width: 600px) {
+  .element {
+    margin: 10px;
+  }
+}
+
     .input-cari .button-primary {
         font-size: 24px;
     }
