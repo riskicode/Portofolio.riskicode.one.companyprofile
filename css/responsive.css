@@ -84,4 +84,7 @@
 
 }
 
-@media screen and (max-widht : 350px) {}
+@media screen and (max-widht : 350px) {
+    .card-layanan {
+        margin: 10px;
+}
